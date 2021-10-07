@@ -2,13 +2,22 @@
 
 > Branching Workflows based on value of specified Page field. See <https://stackoverflow.com/questions/69028083/>
 
+[![Continuous Integration](https://github.com/engineervix/wagtail-branching-workflows/actions/workflows/main.yml/badge.svg)](https://github.com/engineervix/wagtail-branching-workflows/actions/workflows/main.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Contents** _generated with [DocToc](https://github.com/thlorenz/doctoc)_
+- [Features ✨](#features-)
+- [Development 💻](#development-)
+  - [First things first](#first-things-first)
+  - [Getting Started](#getting-started)
+  - [Tests](#tests)
+  - [Code Formatting](#code-formatting)
+  - [Contributing 🤝](#contributing-)
+- [Running the application 🚀](#running-the-application-)
+- [Credits 👏](#credits-)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
