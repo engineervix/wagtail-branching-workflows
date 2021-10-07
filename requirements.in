@@ -1,0 +1,69 @@
+# Core
+django[argon2,bcrypt]>=3.2,<4.0
+wagtail>=2.13,<3.0
+
+# Django Extensions
+django-anymail[sendgrid]
+django-autoslug
+django-colorful
+django-compressor
+django-debug-toolbar
+django-el-pagination
+django-environ
+django-extensions
+django-maintenancemode-2
+django-mjml
+django-model-utils
+django-multiselectfield
+# django-redis
+django-social-share
+django-user-agents
+django-widget-tweaks
+
+# Wagtail Extensions
+wagtailfontawesome
+
+# Other third-party libraries
+bleach
+brotli
+# celery[redis,msgpack]<5.0
+csscompressor
+# hiredis
+lz4 # for django_redis.compressors.lz4.Lz4Compressor
+psycopg2
+pyyaml
+readtime
+slimit
+titlecase
+werkzeug
+yattag
+
+# Developer Tools
+bpython
+black
+commitizen
+doc8
+flake8
+invoke
+isort[requirements_deprecated_finder]
+pipdeptree
+pip-tools>=5.5
+powerline-status
+pre-commit>=2.9.2
+
+# Testing
+fake-useragent
+faker-e164
+pytest-cov
+pytest-django
+pytest-dotenv
+pytest-factoryboy
+pytest-logger
+pytest-mock
+pytest-sugar
+pytest-xdist
+wagtail-factories @ https://github.com/wagtail/wagtail-factories/archive/master.zip
+
+# Production
+pymemcache
+sentry-sdk
