@@ -42,7 +42,7 @@ cffi==1.14.6
     # via
     #   argon2-cffi
     #   bcrypt
-cfgv==3.3.0
+cfgv==3.3.1
     # via pre-commit
 charset-normalizer==2.0.6
     # via requests
