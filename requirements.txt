@@ -373,7 +373,7 @@ typing-extensions==3.10.0.2
     # via black
 ua-parser==0.10.0
     # via user-agents
-urllib3==1.26.6
+urllib3==1.26.7
     # via
     #   requests
     #   sentry-sdk
