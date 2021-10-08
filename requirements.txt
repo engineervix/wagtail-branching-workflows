@@ -92,7 +92,7 @@ django[argon2,bcrypt]==3.2.8
     #   wagtailfontawesome
 django-anymail[sendgrid]==8.4
     # via -r requirements.in
-django-appconf==1.0.4
+django-appconf==1.0.5
     # via django-compressor
 django-autoslug==1.9.8
     # via -r requirements.in
