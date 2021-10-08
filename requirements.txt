@@ -68,7 +68,7 @@ cwcwidth==0.1.4
     #   curtsies
 decli==0.5.2
     # via commitizen
-distlib==0.3.2
+distlib==0.3.3
     # via virtualenv
 django[argon2,bcrypt]==3.2.6
     # via
