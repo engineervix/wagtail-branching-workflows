@@ -10,7 +10,7 @@ appdirs==1.4.4
     # via black
 argcomplete==1.12.3
     # via commitizen
-argon2-cffi==20.1.0
+argon2-cffi==21.1.0
     # via django
 asgiref==3.4.1
     # via django
