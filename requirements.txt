@@ -369,7 +369,7 @@ tomlkit==0.7.2
     # via commitizen
 typed-ast==1.4.3
     # via black
-typing-extensions==3.10.0.0
+typing-extensions==3.10.0.2
     # via black
 ua-parser==0.10.0
     # via user-agents
