@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  web:
+    build: ./app
+    command: yarn dev
+    volumes:
+      - ./app/:/usr/src/app/
+      - "/app/node_modules"
+    ports:
+      - 8009:8000
+      - 3009:3000
+      - 1089:1080
+    env_file:
+      - app/.envs/.dev.env
+    environment:
+      - HOST=0.0.0.0
+    depends_on:
+      - db
+  db:
+    build:
+      context: ./app/config/db
+      dockerfile: Dockerfile
+    expose:
+      - 5432
+    environment:
+      - POSTGRES_USER=wagtail_dev_user
+      - POSTGRES_PASSWORD=wagtail_dev_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+volumes:
+  postgres_data:

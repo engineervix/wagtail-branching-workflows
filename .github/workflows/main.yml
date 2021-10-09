@@ -8,11 +8,11 @@ env:
 on:
   pull_request:
     branches: ["master", "main"]
-    paths-ignore: ["docs/**"]
+    paths-ignore: ["app/docs/**"]
 
   push:
     branches: ["master", "main"]
-    paths-ignore: ["docs/**"]
+    paths-ignore: ["app/docs/**"]
 
 jobs:
   # Runs all steps on the VM
@@ -55,6 +55,7 @@ jobs:
           node-version: "14"
 
       - name: Install Dependencies
+        working-directory: ./app
         run: |
           sudo apt update -y && sudo apt upgrade -y
           export DEBIAN_FRONTEND=noninteractive
@@ -81,21 +82,25 @@ jobs:
           echo "BASE_URL=www.example.com" >> .envs/.test.env
 
       - name: isort
+        working-directory: ./app
         run: |
           . ../venv/bin/activate
           isort . --check-only --profile black
 
       - name: Black
+        working-directory: ./app
         run: |
           . ../venv/bin/activate
           black . --check
 
       - name: Flake8
+        working-directory: ./app
         run: |
           . ../venv/bin/activate
           flake8 mysite
 
       - name: Stylelint
+        working-directory: ./app
         run: |
           gulp lint-css
 
@@ -141,6 +146,7 @@ jobs:
           node-version: "14"
 
       - name: Install Dependencies
+        working-directory: ./app
         run: |
           sudo apt update -y && sudo apt upgrade -y
           export DEBIAN_FRONTEND=noninteractive
@@ -223,6 +229,7 @@ jobs:
       #     node-version: "14"
 
       - name: Install Dependencies
+        working-directory: ./app
         shell: bash
         run: |
           apt update -y && apt upgrade -y
@@ -258,6 +265,7 @@ jobs:
           # - celery -A config worker -B --loglevel=debug --purge
 
       - name: Test with pytest
+        working-directory: ./app
         shell: bash
         run: |
           source ~/venv/bin/activate
