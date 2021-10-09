@@ -158,7 +158,7 @@ faker==4.18.0
     #   faker-e164
 faker-e164==0.1.0
     # via -r requirements.in
-filelock==3.0.12
+filelock==3.3.0
     # via virtualenv
 flake8==3.9.2
     # via -r requirements.in
