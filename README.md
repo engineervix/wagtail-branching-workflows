@@ -129,7 +129,7 @@ docker-compose exec web yarn test
 ### Code Formatting
 
 - Run `docker-compose exec web invoke lint` to run [`flake8`](https://flake8.pycqa.org/en/latest/), [`black`](https://black.readthedocs.io/en/stable/), [`isort`](https://pycqa.github.io/isort/) on the code.
-- If you get any errors from `black` and/or `isort`, run `docker-compose exec web invoke lint --fix` or `docker-compose exec web invoke lint -f` so that black and isort can format your files. If this still doesn't work, don't worry, there's a bunch of pre-commit hooks that that have been set up to deal with this. Take a look at [.pre-commit-config.yaml](.pre-commit-config.yaml).
+- If you get any errors from `black` and/or `isort`, run `docker-compose exec web invoke lint --fix` or `docker-compose exec web invoke lint -f` so that black and isort can format your files.<!-- If this still doesn't work, don't worry, there's a bunch of pre-commit hooks that that have been set up to deal with this. Take a look at [.pre-commit-config.yaml](.pre-commit-config.yaml).-->
 
 ### Contributing 🤝
 
