@@ -68,9 +68,7 @@ class BaseStreamBlock(StreamBlock):
     """
 
     heading_block = HeadingBlock()
-    paragraph_block = RichTextBlock(
-        icon="fa-paragraph", template="blocks/paragraph_block.html"
-    )
+    paragraph_block = RichTextBlock(icon="fa-paragraph", template="blocks/paragraph_block.html")
     image_block = ImageBlock()
     block_quote = BlockQuote()
     embed_block = EmbedBlock(
@@ -91,9 +89,7 @@ class CustomRichTextBlock(StreamBlock):
     Define the custom blocks that `StreamField` will utilize
     """
 
-    paragraph_block = RichTextBlock(
-        icon="fa-paragraph", template="blocks/paragraph_block.html", editor="simple"
-    )
+    paragraph_block = RichTextBlock(icon="fa-paragraph", template="blocks/paragraph_block.html", editor="simple")
 
     def get_api_representation(self, value, context=None):
         # this hack based on https://github.com/wagtail/wagtail/issues/2695#issuecomment-457392434

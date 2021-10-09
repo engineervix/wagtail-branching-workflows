@@ -95,15 +95,11 @@ ANYMAIL = {
     "SENDGRID_API_KEY": env("SENDGRID_API_KEY"),  # noqa F405
     "SENDGRID_GENERATE_MESSAGE_ID": env("SENDGRID_GENERATE_MESSAGE_ID"),  # noqa F405
     "SENDGRID_MERGE_FIELD_FORMAT": env("SENDGRID_MERGE_FIELD_FORMAT"),  # noqa F405
-    "SENDGRID_API_URL": env(  # noqa F405
-        "SENDGRID_API_URL", default="https://api.sendgrid.com/v3/"
-    ),
+    "SENDGRID_API_URL": env("SENDGRID_API_URL", default="https://api.sendgrid.com/v3/"),  # noqa F405
 }
 
 if len(getaddresses([env("EMAIL_RECIPIENTS")])) == 1:  # noqa F405
-    LIST_OF_EMAIL_RECIPIENTS.append(  # noqa F405
-        formataddr(getaddresses([env("EMAIL_RECIPIENTS")])[0])  # noqa F405
-    )
+    LIST_OF_EMAIL_RECIPIENTS.append(formataddr(getaddresses([env("EMAIL_RECIPIENTS")])[0]))  # noqa F405  # noqa F405
 else:
     for email_address in getaddresses([env("EMAIL_RECIPIENTS")]):  # noqa F405
         LIST_OF_EMAIL_RECIPIENTS += formataddr(email_address)  # noqa F405
@@ -127,12 +123,7 @@ RECAPTCHA_USE_SSL = True
 LOGGING = {
     "version": 1,
     "disable_existing_loggers": True,
-    "formatters": {
-        "verbose": {
-            "format": "%(levelname)s %(asctime)s %(module)s "
-            "%(process)d %(thread)d %(message)s"
-        }
-    },
+    "formatters": {"verbose": {"format": "%(levelname)s %(asctime)s %(module)s " "%(process)d %(thread)d %(message)s"}},
     "handlers": {
         "console": {
             "level": "DEBUG",

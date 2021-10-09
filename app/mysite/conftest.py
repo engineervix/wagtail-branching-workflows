@@ -87,19 +87,11 @@ def fake_embed_url():
     for an exhaustive list
     """
     fake_dailymotion = "https://www.dailymotion.com/video/x55zbfz"
-    fake_deviantart = (
-        "https://www.deviantart.com/pixelstains/art/3-Foliage-Brushes-511087442"
-    )
-    fake_etsy = (
-        "https://www.etsy.com/listing/157263100/travel-mugs-personalized-contigo-14-oz"
-    )
+    fake_deviantart = "https://www.deviantart.com/pixelstains/art/3-Foliage-Brushes-511087442"
+    fake_etsy = "https://www.etsy.com/listing/157263100/travel-mugs-personalized-contigo-14-oz"
     fake_facebook_post = "https://web.facebook.com/natgeo/posts/10157141227438951"
-    fake_facebook_video = (
-        "https://www.facebook.com/vietfunnyvideo/videos/a87e1b81/1395374707273324/"
-    )
-    fake_five_hundred_px = (
-        "https://500px.com/photo/1010158024/The-End--by-Bruno-Desbois"
-    )
+    fake_facebook_video = "https://www.facebook.com/vietfunnyvideo/videos/a87e1b81/1395374707273324/"
+    fake_five_hundred_px = "https://500px.com/photo/1010158024/The-End--by-Bruno-Desbois"
     fake_flickr = "https://www.flickr.com/photos/phils-pixels/23032529294/"
     fake_github_gist = "https://gist.github.com/denji/8359866"
     # TODO: Instagram has issues. See https://github.com/wagtail/wagtail/issues/1985
@@ -108,9 +100,7 @@ def fake_embed_url():
     fake_meetup = "https://www.meetup.com/RVALUG/events/hhgrkpybcdbtb/"
     fake_photobucket = "https://media.photobucket.com/user/MitziJ_photos/media/Snow2008026.jpg.html?filters[term]=snow&filters[primary]=images"
     fake_scribd = "https://www.scribd.com/book/257046945/Rust-The-Longest-War"
-    fake_slideshare = (
-        "https://www.slideshare.net/AlexanderLoechel/modern-python-testing"
-    )
+    fake_slideshare = "https://www.slideshare.net/AlexanderLoechel/modern-python-testing"
     fake_soundcloud = "https://soundcloud.com/ligonier/variant-on-benedictus"
     fake_speakerdeck = "https://speakerdeck.com/eitanlees/visualization"
     fake_ted = "https://www.ted.com/talks/michael_r_stiff_why_is_cotton_in_everything"

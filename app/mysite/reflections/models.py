@@ -23,9 +23,7 @@ from mysite.base.blocks import CustomRichTextBlock
 
 
 class DevotionalTag(TaggedItemBase):
-    content_object = ParentalKey(
-        "DailyReflectionPage", related_name="tagged_items", on_delete=models.CASCADE
-    )
+    content_object = ParentalKey("DailyReflectionPage", related_name="tagged_items", on_delete=models.CASCADE)
 
 
 class DailyReflectionPage(Page):
@@ -130,9 +128,7 @@ class DailyReflectionPage(Page):
         """
         tags = self.tags.all()
         for tag in tags:
-            tag.url = "/" + "/".join(
-                s.strip("/") for s in [self.get_parent().url, "tags", tag.slug]
-            )
+            tag.url = "/" + "/".join(s.strip("/") for s in [self.get_parent().url, "tags", tag.slug])
         return tags
 
     @property

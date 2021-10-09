@@ -19,6 +19,7 @@ exclude = '''
     | _build
     | buck-out
     | build
+    | node_modules
     | (.*)/migrations
     | dist
   )/

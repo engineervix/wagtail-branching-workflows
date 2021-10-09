@@ -15,9 +15,7 @@ def view_document(request, document_id, document_filename):
 
     # Remove "attachment" from response's Content-Disposition
     contdisp = response["Content-Disposition"]
-    response["Content-Disposition"] = "; ".join(
-        [x for x in contdisp.split("; ") if x != "attachment"]
-    )
+    response["Content-Disposition"] = "; ".join([x for x in contdisp.split("; ") if x != "attachment"])
 
     # Force content-type for pdf files
     if document_filename.split(".")[-1] == "pdf":
@@ -52,8 +50,6 @@ def site_search(request):
         {
             "search_query": search_query,
             "search_results": search_results,
-            "title": "{} Search Results for: {}".format(
-                settings.WAGTAIL_SITE_NAME, search_query
-            ),
+            "title": "{} Search Results for: {}".format(settings.WAGTAIL_SITE_NAME, search_query),
         },
     )
