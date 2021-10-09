@@ -60,7 +60,7 @@ csscompressor==0.9.5
     # via -r requirements.in
 cssselect==1.1.0
     # via pyquery
-curtsies==0.3.9
+curtsies==0.3.10
     # via bpython
 cwcwidth==0.1.4
     # via
