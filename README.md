@@ -3,7 +3,6 @@
 > Branching Workflows based on value of specified Page field. See <https://stackoverflow.com/questions/69028083/>
 
 [![Continuous Integration](https://github.com/engineervix/wagtail-branching-workflows/actions/workflows/main.yml/badge.svg)](https://github.com/engineervix/wagtail-branching-workflows/actions/workflows/main.yml)
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/engineervix/wagtail-branching-workflows/main.svg)](https://results.pre-commit.ci/latest/github/engineervix/wagtail-branching-workflows/main)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
