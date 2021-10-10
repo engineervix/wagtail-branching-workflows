@@ -62,7 +62,7 @@ cssselect==1.1.0
     # via pyquery
 curtsies==0.3.9
     # via bpython
-cwcwidth==0.1.4
+cwcwidth==0.1.5
     # via
     #   bpython
     #   curtsies
