@@ -212,6 +212,11 @@ AUTH_USER_MODEL = "users.User"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+WAGTAILADMIN_NOTIFICATION_USE_HTML = True
+
+# https://docs.wagtail.io/en/stable/reference/settings.html#workflow
+WAGTAIL_WORKFLOW_REQUIRE_REAPPROVAL_ON_EDIT = False
+
 # Omitting the 'default' editor now leaves the original default editor intact,
 # so it is no longer necessary to redefine 'default' when adding alternative editors.
 WAGTAILADMIN_RICH_TEXT_EDITORS = {
