@@ -53,9 +53,14 @@ docker-compose -v
 
 ### Getting Started
 
-First, [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) this repository, then fire up your command prompt and clone the forked repository.
+Upon cloning this repository (or forking + cloning your fork), navigate to the cloned project directory: `cd wagtail-branching-workflows`
 
-Then, navigate to the cloned project directory: `cd wagtail-branching-workflows`
+Then create the required `.env` files:
+
+```sh
+cp -v app/.envs/.dev.env.sample app/.envs/.dev.env
+cp -v app/.envs/.test.env.sample app/.envs/.test.env
+```
 
 Build the images and spin up the containers:
 
