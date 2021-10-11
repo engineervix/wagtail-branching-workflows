@@ -160,7 +160,7 @@ faker-e164==0.1.0
     # via -r requirements.in
 filelock==3.0.12
     # via virtualenv
-flake8==3.9.2
+flake8==4.0.1
     # via -r requirements.in
 future==0.18.2
     # via pytest-logger
