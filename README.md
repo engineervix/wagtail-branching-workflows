@@ -1,8 +1,10 @@
 # Branching Workflows in Wagtail
 
 > Branching Workflows based on value of specified Page field.
+>
 > Stack Overflow Question: <https://stackoverflow.com/questions/69028083/>
 > Blog Post: <https://importthis.tech/wagtail-branching-workflows>
+>
 > Video Demo: <https://youtu.be/qx1LOqJkt9Y>
 
 [![Continuous Integration](https://github.com/engineervix/wagtail-branching-workflows/actions/workflows/main.yml/badge.svg)](https://github.com/engineervix/wagtail-branching-workflows/actions/workflows/main.yml)
