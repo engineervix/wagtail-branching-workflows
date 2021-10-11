@@ -1,6 +1,9 @@
 # Branching Workflows in Wagtail
 
-> Branching Workflows based on value of specified Page field. See <https://stackoverflow.com/questions/69028083/>
+> Branching Workflows based on value of specified Page field.
+> Stack Overflow Question: <https://stackoverflow.com/questions/69028083/>
+> Blog Post: <https://importthis.tech/wagtail-branching-workflows>
+> Video Demo: <https://youtu.be/qx1LOqJkt9Y>
 
 [![Continuous Integration](https://github.com/engineervix/wagtail-branching-workflows/actions/workflows/main.yml/badge.svg)](https://github.com/engineervix/wagtail-branching-workflows/actions/workflows/main.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -17,6 +20,7 @@
   - [Code Formatting](#code-formatting)
   - [Contributing 🤝](#contributing-)
 - [Credits 👏](#credits-)
+- [Video Demo](#video-demo)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -148,5 +152,9 @@ Contributions of any kind welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 ## Credits 👏
 
 This project's structure is based on the [`engineervix/cookiecutter-wagtail-vix`](https://github.com/engineervix/cookiecutter-wagtail-vix) project template.
+
+## Video Demo
+
+[![Watch the video](https://img.youtube.com/vi/qx1LOqJkt9Y/maxresdefault.jpg)](https://youtu.be/qx1LOqJkt9Y)
 
 ---
