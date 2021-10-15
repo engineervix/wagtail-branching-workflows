@@ -214,7 +214,7 @@ pep517==0.11.0
     # via pip-tools
 phonenumberslite==8.12.35
     # via faker-e164
-pillow==8.3.2
+pillow==8.4.0
     # via wagtail
 pip-api==0.0.23
     # via isort
