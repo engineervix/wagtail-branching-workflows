@@ -70,7 +70,7 @@ decli==0.5.2
     # via commitizen
 distlib==0.3.3
     # via virtualenv
-django[argon2,bcrypt]==3.2.8
+django[argon2,bcrypt]==3.2.10
     # via
     #   -r requirements.in
     #   django-anymail
