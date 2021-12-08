@@ -216,7 +216,7 @@ phonenumberslite==8.12.39
     # via faker-e164
 pillow==8.4.0
     # via wagtail
-pip-api==0.0.23
+pip-api==0.0.26
     # via isort
 pip-tools==6.4.0
     # via -r requirements.in
