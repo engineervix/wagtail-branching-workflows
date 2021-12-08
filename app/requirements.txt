@@ -269,7 +269,7 @@ pytest==6.2.5
     #   pytest-mock
     #   pytest-sugar
     #   pytest-xdist
-pytest-cov==2.12.1
+pytest-cov==3.0.0
     # via -r requirements.in
 pytest-django==4.4.0
     # via -r requirements.in
