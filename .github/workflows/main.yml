@@ -110,7 +110,7 @@ jobs:
     runs-on: ubuntu-20.04
 
     container:
-      image: python:3.8-buster
+      image: python:3.11-buster
 
     services:
       redis:
