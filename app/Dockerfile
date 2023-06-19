@@ -1,6 +1,6 @@
 # Use an official Python runtime based on Debian 10 "buster" as a parent image.
 # FROM python:3.8-slim-buster
-FROM python:3.8-buster
+FROM python:3.11-buster
 
 # Add user that will be used in the container.
 # RUN useradd -u 5678 wagtail
