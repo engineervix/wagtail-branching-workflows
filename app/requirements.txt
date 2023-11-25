@@ -170,7 +170,7 @@ html5lib==1.1
     # via wagtail
 identify==1.6.2
     # via pre-commit
-idna==2.10
+idna==3.6
     # via requests
 inflection==0.5.1
     # via pytest-factoryboy
