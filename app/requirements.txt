@@ -226,7 +226,7 @@ pipreqs==0.4.10
     # via isort
 platformdirs==2.4.0
     # via virtualenv
-pluggy==0.13.1
+pluggy==1.4.0
     # via pytest
 ply==3.11
     # via slimit
