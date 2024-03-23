@@ -345,7 +345,7 @@ sqlparse==0.4.1
     #   django-debug-toolbar
 stevedore==3.5.0
     # via doc8
-tablib[xls,xlsx]==2.0.0
+tablib[xls,xlsx]==3.6.0
     # via wagtail
 telepath==0.2
     # via wagtail
